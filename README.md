@@ -8,15 +8,15 @@ The simple demo visualisation can be found [here](https://observablehq.com/d/fcd
 In summary, this repository demonstrates a simple fast way of conducting twitter based data analysing and visualisation. The pipeline can be modified in various ways to fit other people's interests, including more suitable d3js template, conducting other twitter API operations by replacing the "fetching followers" codes and a useful json formatting demo will be provided later, which is widely used in deep learning, especially the popular computer vision baseline dataset [MS-COCO](http://cocodataset.org/#home) formats their dataset in this way.
 ## Retriving Twitter Account Followers using Tweepy
 ### Prerequisite
-	- A twitter account to use API functions
-	- Create your twitter APP to access it with token and keys, check [here](https://www.earthdatascience.org/courses/earth-analytics-python/using-apis-natural-language-processing-twitter/get-and-use-twitter-data-in-python/) for details.
-	- Install Python (Tweepy package)[https://github.com/tweepy/tweepy]
+1. A twitter account to use API functions
+2. Create your twitter APP to access it with token and keys, check [here](https://www.earthdatascience.org/courses/earth-analytics-python/using-apis-natural-language-processing-twitter/get-and-use-twitter-data-in-python/) for details.
+3. Install Python [Tweepy package](https://github.com/tweepy/tweepy)
 
 ### Using Tweepy API
 	Since you've set things ready, you can use Tweepy API to:
-	* Connect to your previously established twitter APP
-	* Acquire the target account's followers' data
-	* Save data into files for visualisation
+	- Connect to your previously established twitter APP
+	- Acquire the target account's followers' data
+	- Save data into files for visualisation
 	Please refer to the provided demo Jupyter Notebook for the sample codes and comments.
 
 
