@@ -29,10 +29,11 @@ Here, I use [Mike Bostock's demo](https://observablehq.com/@d3/force-directed-gr
 
 The motivation for this part is not only replacing data source but find the most effortless way to format your data acquired in the previous step and avoiding modifying the js codes. Therefore, the next step is direct to the original data file and adapt its format into our own data. 
 
-The (original json file)[https://gist.githubusercontent.com/mbostock/4062045/raw/5916d145c8c048a6e3086915a6be464467391c62/miserables.json] uses simple dictionary-list format as: ```{[{}]}```. To be specific, a dictionary with keys: ```nodes``` and ```links```. Each of the two elements is a list with their child elements: ```node``` and ```link```. The ```node``` is interpreted as ```id``` and ```group``` while ```source```, ```target``` and ```value``` denote a ```link's``` start, end and weighted value respectively. 
+The (original json file)[https://gist.githubusercontent.com/mbostock/4062045/raw/5916d145c8c048a6e3086915a6be464467391c62/miserables.json] uses simple dictionary-list format as: ```{[{}]}```. To be specific, a dictionary with keys: ```nodes``` and ```links```. Each of the two elements is a list with their child elements: ```node``` and ```link```. The ```node``` is interpreted as ```id``` and ```group``` while ```source```, ```target``` and ```value``` denote a ```link's``` start, end and weighted edge length respectively. 
 
 ### Formatting Data as Json 
-The goal of this step is loading previously acquired source data and format it in the preferred way: {[{}]} json file. Please find detailed codes and comments from the Jupyter notebook.
+The goal of this step is loading previously acquired source data and format it in the preferred way: {[{}]} json file. 
+A Jupyter notebook will be updated (around 10 Oct 2019) to demenstrate the detailed process of transferring a sample csv file into the target json format.
 
 ### Plugin Formatted Data and Run
 Paste your formatted data into the [gist](https://gist.github.com/) and generate an online source data. Then you can get the online address of the ```raw``` data. Replace the original data address with your freshly baked one. Click the ```run``` icon (right triangle) to update the visualisation and Eureka.
