@@ -14,9 +14,9 @@ In summary, this repository demonstrates a simple fast way of conducting twitter
 
 ### Using Tweepy API
 	Since you've set things ready, you can use Tweepy API to:
-	- Connect to your previously established twitter APP
-	- Acquire the target account's followers' data
-	- Save data into files for visualisation
+	* Connect to your previously established twitter APP
+	* Acquire the target account's followers' data
+	* Save data into files for visualisation
 	Please refer to the provided demo Jupyter Notebook for the sample codes and comments.
 
 
