@@ -3,8 +3,9 @@ This is a simple quick demo project to practice ```big data collection``` and ``
 
 To simplify the visualisation procedure (avoid local javascript setup), I used a publicly accessible platform called [observable](https://observablehq.com/) as a host for the visualisation results. Furthermore, the observable supports live codes, which you can edit your codes on the website and update the outcome visualisations. 
 
-The simple demo visualisation can be found [here](https://observablehq.com/d/fcd695534e852304). Thanks for [Mike Bostock's demo](https://observablehq.com/@d3/force-directed-graph) and inspiration from [erikaris's post](http://erikaris.com/2018/08/21/using-d3-to-visualize-twitter-followers/). Feel free to fork and modify it with more eyes-catching d3js templates. Next, I'll demonstrate detailed steps on conducting this with a jupyter notebook provided.
+The simple demo visualisation can be found [here](https://observablehq.com/d/fcd695534e852304)(you can also drag the nodes). Thanks for [Mike Bostock's demo](https://observablehq.com/@d3/force-directed-graph) and inspiration from [erikaris's post](http://erikaris.com/2018/08/21/using-d3-to-visualize-twitter-followers/). Feel free to fork and modify it with more eyes-catching d3js templates. Next, I'll demonstrate detailed steps on conducting this with a jupyter notebook provided.
 
+In summary, this repository demonstrates a simple fast way of conducting twitter based data analysing and visualisation. The pipeline can be modified in various ways to fit other people's interests, including more suitable d3js template, conducting other twitter API operations by replacing the "fetching followers" codes and a useful json formatting demo will be included, which is widely used in deep learning, especially the popular computer vision baseline dataset (MS-COCO)[http://cocodataset.org/#home] formats their dataset in this way.
 ## Retriving Twitter Account Followers using Tweepy
 ### Prerequisite
 	- A twitter account to use API functions
