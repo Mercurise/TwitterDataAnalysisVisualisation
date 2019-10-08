@@ -5,12 +5,12 @@ To simplify the visualisation procedure (avoid local javascript setup), I used a
 
 The simple demo visualisation can be found here and feel free to modify it with more eyes-catching d3js templates. Next, I'll demonstrate detailed steps on conducting this with a jupyter notebook provided.
 
-### Retriving Twitter Account Followers using Tweepy
+## Retriving Twitter Account Followers using Tweepy
 some contents and jupyter notebook
 
-### Formatting Data as Json 
+## Formatting Data as Json 
 some contents and jupyter notebook
 
-### Data Visualisation using D3js
+## Data Visualisation using D3js
 refine the datasource 
 publish online
