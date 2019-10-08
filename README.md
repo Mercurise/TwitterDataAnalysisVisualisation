@@ -27,10 +27,12 @@ The simple demo visualisation can be found [here](https://observablehq.com/d/fcd
 Here, I use [Mike Bostock's demo](https://observablehq.com/@d3/force-directed-graph). Inside the d3js template, there is a line defining data source:
 ```data = d3.json("https://gist.githubusercontent.com/mbostock/4062045/raw/5916d145c8c048a6e3086915a6be464467391c62/miserables.json")```. It is actually the raw json file saved at [github gist](https://gist.github.com/). Therefore, you can use it to ```host``` your data file and pass the ```raw file link``` to replace the data source.
 
+The motivation for this part is not only replacing data source but find the most effortless way to format your data acquired in the previous step and avoiding modifying the js codes. Therefore, the next step is direct to the original data file and adapt its format into our own data. 
+
+The (original json file)[https://gist.githubusercontent.com/mbostock/4062045/raw/5916d145c8c048a6e3086915a6be464467391c62/miserables.json] uses simple dictionary-list format as: ```{[{}]}```. To be specific, a dictionary with keys: ```nodes``` and ```links```. Each of the two elements is a list with their child elements: ```node``` and ```link```. The ```node``` is interpreted as ```id``` and ```group``` while ```source```, ```target``` and ```value``` denote a ```link's``` start, end and weighted value respectively. 
 
 ### Formatting Data as Json 
-### 
-some contents and jupyter notebook
+The goal of this step is loading previously acquired source data and format it in the preferred way: {[{}]} json file. Please find detailed codes and comments from the Jupyter notebook.
 
-refine the datasource 
-publish online
+### Plugin Formatted Data and Run
+Paste your formatted data into the [gist](https://gist.github.com/) and generate an online source data. Then you can get the online address of the ```raw``` data. Replace the original data address with your freshly baked one. Click the ```run``` icon (right triangle) to update the visualisation and Eureka.
