@@ -26,7 +26,10 @@ In summary, this repository demonstrates a simple fast way of conducting twitter
 [Observable](https://observablehq.com/) provides various d3js template to visualise different types of data. It's recommended to make sure your visualisation aim and choose the right approach to explain your data by visualisation. 
 
 Here, I use [Mike Bostock's demo](https://observablehq.com/@d3/force-directed-graph). Inside the d3js template, there is a line defining data source:
-```data = d3.json("https://gist.githubusercontent.com/mbostock/4062045/raw/5916d145c8c048a6e3086915a6be464467391c62/miserables.json")```. It is actually the raw json file saved at [github gist](https://gist.github.com/). Therefore, you can use it to **host** your data file and pass the **raw file link** to replace the data source.
+
+```data = d3.json("https://gist.githubusercontent.com/mbostock/4062045/raw/5916d145c8c048a6e3086915a6be464467391c62/miserables.json")```
+
+It is actually the raw json file saved at [github gist](https://gist.github.com/). Therefore, you can use it to **host** your data file and pass the **raw file link** to replace the data source.
 
 The motivation for this part is not only replacing data source but find the most effortless way to format your data acquired in the previous step and avoiding modifying the js codes. Therefore, the next step is direct to the original data file and adapt its format into our own data. 
 
